@@ -1,0 +1,8 @@
+## Onboarding API Workflow
+
+Home -> WIP 
+WIP -> CancelWIP -> Home
+WIP -> CompanyData(companyName, address, email, phone) -> WIP
+WIP -> AccountData(companyId, division, discount, creditLimit) -> WIP
+WIP -> ActivityData(companyId, accountId, activityType, dataScheduled) -> WIP
+WIP -> FinalizeWIP -> Home

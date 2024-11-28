@@ -1,0 +1,7 @@
+mca@mamund-ws:~/onboarding$ git add --all
+mca@mamund-ws:~/onboarding$ git commit -m"add README to the repo"
+[master (root-commit) 6f509d4] add README to the repo
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.md
+mca@mamund-ws:~/onboarding$ 
+

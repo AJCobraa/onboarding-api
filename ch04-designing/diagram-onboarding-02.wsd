@@ -1,0 +1,13 @@
+title BigCo, Inc. Onboarding API
+
+Home->+WIP: 
+WIP->+cancelWIP:
+cancelWIP-->-Home:
+WIP->+companyData: 
+companyData-->-WIP: 
+WIP->+accountData: 
+accountData-->-WIP:
+WIP->+activityData: 
+activityData-->-WIP:
+WIP->+finalizeWIP:
+finalizeWIP-->Home:

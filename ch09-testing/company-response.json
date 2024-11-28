@@ -1,0 +1,10 @@
+{
+    "home": [
+        {
+            "id": "list",
+            "name": "company",
+            "rel": "collection company",
+            "href": "http://company-atk.herokuapp.com/list/"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+descriptor:
+  - id: person
+    type: semantic
+    descriptor:
+    - id: givenName
+      type: semantic
+    - id: familyName
+      type: semantic
+    - id: email 
+      type: semantic
+    - id: read
+      type: safe
+      rt: person

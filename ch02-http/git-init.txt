@@ -1,0 +1,6 @@
+mca@mamund-ws:~$ mkdir onboarding
+mca@mamund-ws:~$ cd onboarding/
+mca@mamund-ws:~/onboarding$ git init
+Initialized empty Git repository in /home/mca/onboarding/.git/
+mca@mamund-ws:~/onboarding$ 
+

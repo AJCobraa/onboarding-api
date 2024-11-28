@@ -1,0 +1,57 @@
+alps:
+  version: '1.0'
+  title: "Onboarding API"
+  doc: 
+    type: "markdown"
+    value: "This is the ALPS document for BigCo's **Onboarding API**"
+
+  descriptor:
+    # vocabulary properties
+    - id: "identifier" 
+      type: "semantic"
+      
+    - id: "companyName" 
+      type: "semantic"
+    
+    - id: "email" 
+      type: "semantic"
+      
+    - id: "telephone" 
+      type: "semantic"
+      
+    - id: "status" 
+      type: "semantic"
+      
+    - id: "maxValue" 
+      type: "semantic"
+      
+    - id: "discount" 
+      type: "semantic"
+     
+    # reference grouping
+    - id: "wip"
+      type: "group"
+      descriptor: 
+       - href: "#identifier"
+       - href: "#companyName"
+       - href: "#email"
+       - href: "#telephone"
+       - href: "#status"
+       - href: "#maxValue"
+       - href: "#discount"
+
+    # actions
+    - id: "startOnboarding"
+      type: "unsafe"
+    - id: "collectCompanyData"
+      type: "safe"
+    - id: "SaveToWIP"
+      type: "idempotent"
+    - id: "collectAccountData"
+      type: "safe"
+    - id: "completeOnboarding"
+      type: "idempotent"
+    - id: "abandonOnboarding"
+      type: "idempotent"
+    - id: "goHome"
+      type: "safe"

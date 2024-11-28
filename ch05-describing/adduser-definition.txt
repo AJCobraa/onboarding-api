@@ -1,0 +1,23 @@
+action: addUser
+  protocol: http
+  url: http://apis.usermanagement.org/users/
+  method: POST
+  format: application/json
+  properties:
+    userName: 
+      required: true
+      type: string
+      validation: alphanumeric
+      min-size: 4
+      max-size: 32
+    password:
+      required: true
+      type: string
+      validation: alphanumeric
+      min-size: 8   
+      max-size: 64
+  returns:
+    format: application/json
+    url: http://apis.usermanagement.org/users/{userId}
+    properties: userId, userName, password, dateCreated
+

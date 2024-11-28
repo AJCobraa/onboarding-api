@@ -1,0 +1,16 @@
+Description template: Person id=person
+  minimum = 0; maximum = unlimited
+  Statement template: givenName
+    Property: http://xmlns.com/foaf/0.1/givenname
+    minimum = 0; maximum = 1 
+    Type of Value = "literal"
+  Statement template: familyName
+    Property: http://xmlns.com/foaf/0.1/family_name
+    minimum = 0; maximum = 1 
+    Type of Value = "literal"
+  Statement template: email
+    Property: http://xmlns.com/foaf/0.1/mbox
+    minimum = 0; maximum = unlimited
+    Type of Value = "non-literal"
+    value URI = mandatory
+

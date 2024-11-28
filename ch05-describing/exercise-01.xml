@@ -1,0 +1,58 @@
+<!--
+ ! Excerpted from "Design and Build Great Web APIs",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/maapis for more book information.
+-->
+<alps version="1.0">
+
+  <title>Activity Service</title>
+  <doc type="text">
+    Tracks all activity for the account
+  </doc>
+  
+  <!-- properties -->
+  <descriptor id="id" />
+  <descriptor id="accountId" />
+  <descriptor id="customerId" />
+  <descriptor id="name" />
+  <descriptor id="description" />
+  <descriptor id="dateCreated" />
+  <descriptor id="dateUpdated" />
+
+  <!-- actions -->
+  <descriptor id="listActivity" type="safe" />
+  
+  <descriptor id="collectFilterData" type="safe" />
+  
+  <descriptor id="filterAcvitity" type="safe">
+    <descriptor id="name" />
+    <descriptor href="#accountId" />
+    <descriptor href="#customerId" />  
+  </descriptor>  
+  
+  <descriptor id="collectReadData" type="safe" />
+  
+  <descriptor id="readActivity" type="safe">
+    <descriptor href="#id" />
+  </descriptor>
+  
+  <descriptor id="collectCreateData" type="safe" />
+  
+  <descriptor id="createActivity" type="unsafe">
+    <descriptor href="#accountId" />
+    <descriptor href="#customerId" />
+    <descriptor id="name" />
+    <descriptor id="description" />
+  </descriptor>
+  
+  <descriptor id="collectRemoveData" type="safe" />
+  
+  <descriptor id="removeActivity" type="idempotent">
+    <descriptor href="#id" />
+  </descriptor>
+
+</alps>  
+

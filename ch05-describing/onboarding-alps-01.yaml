@@ -1,0 +1,7 @@
+alps:
+  version: '1.0'
+  title: "Onboarding API"
+  doc: 
+    type: "markdown"
+    value: "This is the ALPS document for BigCo's **Onboarding API**"
+

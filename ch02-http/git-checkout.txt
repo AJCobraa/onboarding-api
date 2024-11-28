@@ -1,0 +1,6 @@
+mca@mamund-ws:~/onboarding$ git checkout -- README.md
+mca@mamund-ws:~/onboarding$ git status
+On branch master
+nothing to commit, working directory clean
+mca@mamund-ws:~/onboarding$ 
+

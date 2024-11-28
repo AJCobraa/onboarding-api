@@ -1,0 +1,8 @@
+mca@mamund-ws:~/onboarding$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+mca@mamund-ws:~/onboarding$ 
+

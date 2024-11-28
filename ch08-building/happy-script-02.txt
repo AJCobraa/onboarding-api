@@ -1,0 +1,41 @@
+# **************************************
+# network vars
+svr="http://localhost:8080"
+acc="accept:application/json"
+
+# **************************************
+# WIP data
+wid="q1w2e3r4"
+status="pending"
+
+# **************************************
+# company data
+cid="w2e3r4t5"
+name="Ems Corp"
+email="emscorp@example.org"
+street="123 Main"
+city="Emtown"
+state="MN"
+pcode="12345"
+country="USA"
+tel="123-456-7890"
+
+# **************************************
+# account data
+aid="e3r4t5y6"
+div="Military"
+limit="10000"
+pct="10"
+
+# **************************************
+# activity data
+tid="r4t5y6u7"
+type="email"
+sched="2020-04-01"
+notes=""
+
+# **************************************
+# status
+approve="active"
+reject="closed"
+

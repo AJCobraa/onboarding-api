@@ -1,0 +1,7 @@
+mca@mamund-ws:~/onboarding$ mkdir services
+mca@mamund-ws:~/onboarding$ curl http://company-atk.herokuapp.com/company/ 
+ >services/company-root.json
+ % Total    % Received % Xferd  Average Speed  Time    Time   Time  Current
+                                Dload  Upload  Total   Spent  Left  Speed
+100   465    0   465    0     0   145k    0 --:--:-- --:--:-- --:--:-- 227k
+mca@mamund-ws:~/onboarding$

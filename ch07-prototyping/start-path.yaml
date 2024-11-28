@@ -1,0 +1,18 @@
+  /start:
+    post:
+      operationId: startOnboarding
+      summary: Use this to start process of onboarding a company
+    
+      parameters:
+        - $ref: "#/components/parameters/ifNoneMatch"
+    
+      requestBody:
+        $ref: "#/components/requestBodies/start"
+              
+      responses:
+        '201':
+          $ref: "#/components/responses/created"
+
+        default:
+          $ref: "#/components/responses/error"
+

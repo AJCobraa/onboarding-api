@@ -1,0 +1,45 @@
+newman
+
+Company API Home Tests
+
+→ Company Home  Starter
+  GET http://company-atk.herokuapp.com [200 OK, 563B, 148ms]
+
+→ Company Home 
+  GET http://company-atk.herokuapp.com [200 OK, 563B, 22ms]
+  ✓  Status is 200
+  ✓  Content-Type header is application/json
+  ✓  Response body contains a valid home object
+  ✓  home.id is set to list
+  ✓  home.name is set to company
+  ✓  home.rel contains company and collection
+
+→ Company Home Utils
+  GET http://company-atk.herokuapp.com [200 OK, 563B, 21ms]
+  ✓  Status is 200
+  ✓  Header content-type contains application/json
+  ✓  Valid home object
+  ✓  home has property id set to list
+  ✓  home has property name set to company
+  ✓  home has property rel set to company
+  ✓  home has property rel set to collection
+
+┌─────────────────────────┬──────────┬──────────┐
+│                         │ executed │   failed │
+├─────────────────────────┼──────────┼──────────┤
+│              iterations │        1 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│                requests │        3 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│            test-scripts │        6 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│      prerequest-scripts │        3 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│              assertions │       13 │        0 │
+├─────────────────────────┴──────────┴──────────┤
+│ total run duration: 360ms                     │
+├───────────────────────────────────────────────┤
+│ total data received: 855B (approx)            │
+├───────────────────────────────────────────────┤
+│ average response time: 63ms                   │
+└───────────────────────────────────────────────┘

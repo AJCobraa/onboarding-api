@@ -1,0 +1,14 @@
+mca@mamund-ws:~/onboarding$ curl localhost:8080
+{ 
+  "home" : 
+  [
+    {
+      "id" : "list",
+      "name" : "onboarding",
+      "rel" : "collection onboarding",
+      "href" : "http://localhost:8080/wip/"
+    }
+  ]
+}
+mca@mamund-ws:~/onboarding$
+

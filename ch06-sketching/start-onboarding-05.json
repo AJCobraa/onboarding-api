@@ -1,0 +1,28 @@
+{
+  "onboardingAPI" : {
+
+    "metadata" : [
+      {"id" : "title", "value" : "BigCo, Inc. Onboarding"},
+      {"id" : "author", "value" : "Mike Amundsen"}
+    ],
+    
+    "links": [
+      {
+        "id" : "startOnboarding", 
+        "href" : "http://api.example.org/start", 
+        "method" : "POST",
+        "properties" : [],
+      },
+      {
+        "id" : "home", 
+        "href" : "http://api.example.org/",
+        "method" : "GET"
+      }
+    ],
+    
+    "items" : [
+      ...
+    ]
+  }
+}
+

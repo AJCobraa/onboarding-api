@@ -1,0 +1,391 @@
+Onboarding Happy Path Script
+Mon Feb  3 17:46:03 EST 2020
+
+Read http://localhost:8080/
+{
+  "home": [
+    {
+      "href": "http://localhost:8080/list/",
+      "rel": "collection onboarding",
+      "name": "onboarding",
+      "id": "list"
+    }
+  ]
+}
+
+Read http://localhost:8080/wip/
+{
+  "onboarding": [
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "",
+      "streetAddress": "",
+      "companyName": "",
+      "companyId": "",
+      "dateUpdated": "2020-01-20T17:02:11.677Z",
+      "dateCreated": "2020-01-20T17:02:11.677Z",
+      "status": "pending",
+      "id": "1kgqne8h4k4",
+      "stateProvince": "",
+      "postalCode": "",
+      "country": "",
+      "telephone": "",
+      "email": "",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    },
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "",
+      "streetAddress": "",
+      "companyName": "",
+      "companyId": "",
+      "dateUpdated": "2020-01-20T17:02:41.388Z",
+      "dateCreated": "2020-01-20T17:02:41.388Z",
+      "status": "pending",
+      "id": "27tidn04ogd",
+      "stateProvince": "",
+      "postalCode": "",
+      "country": "",
+      "telephone": "",
+      "email": "",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    },
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "",
+      "streetAddress": "",
+      "companyName": "",
+      "companyId": "",
+      "dateUpdated": "2020-01-20T21:42:36.965Z",
+      "dateCreated": "2020-01-20T21:42:36.965Z",
+      "status": "pending",
+      "id": "2fhm4lvywbx",
+      "stateProvince": "",
+      "postalCode": "",
+      "country": "",
+      "telephone": "",
+      "email": "",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    },
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "",
+      "streetAddress": "",
+      "companyName": "",
+      "companyId": "",
+      "dateUpdated": "2020-01-20T17:07:21.181Z",
+      "dateCreated": "2020-01-20T17:07:21.181Z",
+      "status": "pending",
+      "id": "5qvguksl1ic",
+      "stateProvince": "",
+      "postalCode": "",
+      "country": "",
+      "telephone": "",
+      "email": "",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    },
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "",
+      "streetAddress": "",
+      "companyName": "",
+      "companyId": "",
+      "dateUpdated": "2020-01-20T22:04:59.673Z",
+      "dateCreated": "2020-01-20T22:04:59.673Z",
+      "status": "pending",
+      "id": "9for0fpod1s",
+      "stateProvince": "",
+      "postalCode": "",
+      "country": "",
+      "telephone": "",
+      "email": "",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    },
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "",
+      "streetAddress": "",
+      "companyName": "",
+      "companyId": "",
+      "dateUpdated": "2020-01-20T21:43:22.130Z",
+      "dateCreated": "2020-01-20T21:43:22.130Z",
+      "status": "pending",
+      "id": "c4k6zbku0n4",
+      "stateProvince": "",
+      "postalCode": "",
+      "country": "",
+      "telephone": "",
+      "email": "",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    },
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "",
+      "streetAddress": "",
+      "companyName": "",
+      "companyId": "",
+      "dateUpdated": "2020-01-20T21:39:49.273Z",
+      "dateCreated": "2020-01-20T21:39:49.273Z",
+      "status": "pending",
+      "id": "x8796379bb",
+      "stateProvince": "",
+      "postalCode": "",
+      "country": "",
+      "telephone": "",
+      "email": "",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    }
+  ]
+}
+
+Add http://localhost:8080/wip/
+{
+  "onboarding": [
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "",
+      "streetAddress": "",
+      "companyName": "",
+      "companyId": "",
+      "dateUpdated": "2020-02-03T22:46:03.187Z",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "status": "pending",
+      "id": "q1w2e3r4",
+      "stateProvince": "",
+      "postalCode": "",
+      "country": "",
+      "telephone": "",
+      "email": "",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    }
+  ]
+}
+
+Read http://localhost:8080/wip/q1w2e3r4/company/
+{
+  "onboarding": [
+    {
+      "email": "",
+      "telephone": "",
+      "country": "",
+      "stateProvince": "",
+      "id": "q1w2e3r4",
+      "status": "pending",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "dateUpdated": "2020-02-03T22:46:03.187Z",
+      "companyId": "",
+      "companyName": "",
+      "streetAddress": "",
+      "city": ""
+    }
+  ]
+}
+
+Write http://localhost:8080/wip/q1w2e3r4/company/
+{
+  "onboarding": [
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "",
+      "city": "Emtown",
+      "streetAddress": "123 Main",
+      "companyName": "Ems Corp",
+      "companyId": "w2e3r4t5",
+      "dateUpdated": "2020-02-03T22:46:03.216Z",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "status": "pending",
+      "id": "q1w2e3r4",
+      "stateProvince": "MN",
+      "postalCode": "12345",
+      "country": "USA",
+      "telephone": "123-456-7890",
+      "email": "emscorp@example.org",
+      "accountId": "",
+      "division": "",
+      "spendingLimit": ""
+    }
+  ]
+}
+
+Read http://localhost:8080/wip/q1w2e3r4/account/
+{
+  "onboarding": [
+    {
+      "discountPercentage": "",
+      "spendingLimit": "",
+      "division": "",
+      "accountId": "",
+      "dateUpdated": "2020-02-03T22:46:03.216Z",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "status": "pending",
+      "id": "q1w2e3r4"
+    }
+  ]
+}
+
+Write http://localhost:8080/wip/q1w2e3r4/account/
+{
+  "onboarding": [
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "discountPercentage": "10",
+      "city": "Emtown",
+      "streetAddress": "123 Main",
+      "companyName": "Ems Corp",
+      "companyId": "w2e3r4t5",
+      "dateUpdated": "2020-02-03T22:46:03.243Z",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "status": "pending",
+      "id": "q1w2e3r4",
+      "stateProvince": "MN",
+      "postalCode": "12345",
+      "country": "USA",
+      "telephone": "123-456-7890",
+      "email": "emscorp@example.org",
+      "accountId": "e3r4t5y6",
+      "division": "Military",
+      "spendingLimit": "10000"
+    }
+  ]
+}
+
+Read http://localhost:8080/wip/q1w2e3r4/activity/
+{
+  "onboarding": [
+    {
+      "notes": "",
+      "dateScheduled": "",
+      "activityType": "",
+      "activityId": "",
+      "dateUpdated": "2020-02-03T22:46:03.243Z",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "status": "pending",
+      "id": "q1w2e3r4"
+    }
+  ]
+}
+
+Write http://localhost:8080/wip/q1w2e3r4/activity/
+{
+  "onboarding": [
+    {
+      "notes": "",
+      "dateScheduled": "2020-04-01",
+      "activityType": "email",
+      "activityId": "r4t5y6u7",
+      "discountPercentage": "10",
+      "city": "Emtown",
+      "streetAddress": "123 Main",
+      "companyName": "Ems Corp",
+      "companyId": "w2e3r4t5",
+      "dateUpdated": "2020-02-03T22:46:03.267Z",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "status": "pending",
+      "id": "q1w2e3r4",
+      "stateProvince": "MN",
+      "postalCode": "12345",
+      "country": "USA",
+      "telephone": "123-456-7890",
+      "email": "emscorp@example.org",
+      "accountId": "e3r4t5y6",
+      "division": "Military",
+      "spendingLimit": "10000"
+    }
+  ]
+}
+
+Read http://localhost:8080/wip/q1w2e3r4/status/
+{
+  "onboarding": [
+    {
+      "dateUpdated": "2020-02-03T22:46:03.267Z",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "status": "pending",
+      "id": "q1w2e3r4"
+    }
+  ]
+}
+
+Approve http://localhost:8080/wip/q1w2e3r4/status/
+{
+  "onboarding": [
+    {
+      "notes": "",
+      "dateScheduled": "2020-04-01",
+      "activityType": "email",
+      "activityId": "r4t5y6u7",
+      "discountPercentage": "10",
+      "city": "Emtown",
+      "streetAddress": "123 Main",
+      "companyName": "Ems Corp",
+      "companyId": "w2e3r4t5",
+      "dateUpdated": "2020-02-03T22:46:03.296Z",
+      "dateCreated": "2020-02-03T22:46:03.187Z",
+      "status": "active",
+      "id": "q1w2e3r4",
+      "stateProvince": "MN",
+      "postalCode": "12345",
+      "country": "USA",
+      "telephone": "123-456-7890",
+      "email": "emscorp@example.org",
+      "accountId": "e3r4t5y6",
+      "division": "Military",
+      "spendingLimit": "10000"
+    }
+  ]
+}
+

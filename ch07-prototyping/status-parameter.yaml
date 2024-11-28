@@ -1,0 +1,12 @@
+    status:
+      name: status
+      description: status flag
+      in: query
+      schema:
+        type: string
+        enum:
+          - pending
+          - completed
+          - abandoned
+        example: "pending"
+

@@ -1,0 +1,14 @@
+Home -> OnboardingList: GET
+OnboardingList -> OnboardingList: GET (status=?)
+OnboardingList --> Home: GET
+OnboardingList -> OnboardingItem: POST (startBody)
+OnboardingList -> OnboardingItem: GET (identifier=?)
+OnboardingItem --> OnboardingList: GET
+OnboardingItem -> Company: GET
+Company --> OnboardingItem: PUT (customerBody)
+OnboardingItem -> Account: GET
+Account --> OnboardingItem: PUT (accountBody)
+OnboardingItem -> Activity: GET
+Activity --> OnboardingItem: PUT (activityBody)
+OnboardingItem -> Status: GET
+Status --> OnboardingList: PUT (statusBody)

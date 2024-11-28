@@ -1,0 +1,11 @@
+mca@mamund-ws:~/onboarding$ git push -u origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 790 bytes | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To git@github.com:mamund/onboarding-api.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+mca@mamund-ws:~/onboarding$ 
+

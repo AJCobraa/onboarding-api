@@ -1,0 +1,12 @@
+# **************************************
+# WIP list read
+echo Read $svr/wip/
+curl $svr/wip/ \
+  -H "$acc" | jq "."
+echo
+
+# **************************************
+# WIP add
+echo Add $svr/wip/
+curl $svr/wip/ -X POST -d "id=$wid&status=pending" -H $acc | jq "."
+echo

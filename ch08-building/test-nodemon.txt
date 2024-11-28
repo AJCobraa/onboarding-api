@@ -1,0 +1,10 @@
+> onboarding@1.0.0 dev /building/all-together/onboarding
+> nodemon index
+
+[nodemon] 2.0.2
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching dir(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index index.js`
+listening on port 8080!
+

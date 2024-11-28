@@ -1,0 +1,13 @@
+mca@mamund-ws:~/onboarding$ git diff
+diff --git a/README.md b/README.md
+index 6647b6d..e136808 100644
+--- a/README.md
++++ b/README.md
+@@ -1,4 +1,4 @@
+ ## Onboarding API Project
+ 
+-This project contains files related to the BigCo Onboarding API.
++This project contains all the files related to the BigCo Onboarding API.
+ 
+mca@mamund-ws:~/onboarding$ 
+

@@ -1,0 +1,27 @@
+Home -> WIP 
+WIP -> CancelWIP -> Home
+WIP -> CompanyData(givenName, companyName, address, email, telephone) -> WIP
+WIP -> AccountData(customerId, division, discount, creditLimit) -> WIP
+WIP -> ActivityData(customerId, accountId, activityType, dateScheduled, 
+  notes) -> WIP
+WIP -> FinalizeWIP -> Home
+
+Validated Names
+ * companyName := https://schema.org/legalName
+ * address := https://schema.org/PostalAddress
+ * email := https://schema.org/email
+ * telephone := https://schema.org/telephone
+ * division := https://schema.org/department
+ * dateScheduled := https://schema.org/Date
+ * discount := https://schema.org/discount
+ * customerId := http://glossary.bigco.com/customerId
+ * creditLimit := http://glossary.bigco.com/creditLimit
+ * accountId := http://glossary.bigco.com/accountId
+ * activityType := https://schema.org/interactionType
+ * Home := http://glossary.bigco.com/Home
+ * WIP := http://glossary.bigco.com/WIP
+ * CancelWIP := http://glossary.bigco.com/CancelWIP
+ * CustomerData := http://glossary.bigco.com/CustomerData
+ * AccountData := http://glossary.bigco.com/AccountData
+ * ActivityData := http://glossary.bigco.com/ActivityData
+

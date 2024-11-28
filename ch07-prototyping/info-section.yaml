@@ -1,0 +1,14 @@
+openapi: 3.0.0
+
+#################################
+# BigCo Onboarding API
+# 2020-16-01
+# Design And Build Great APIs
+# Mike Amundsen (@mamund)
+#################################
+
+### general information block ###
+info:
+  version: '1.0.0'
+  title: 'BigCo Onboarding API'
+  description: 'This is the OAS document for BigCo **Onboarding API**'

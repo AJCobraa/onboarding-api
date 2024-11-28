@@ -1,0 +1,6 @@
+action: addUser
+  properties:
+    userName: ?
+    password: ?
+  returns: userRecord
+

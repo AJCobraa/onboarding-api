@@ -1,0 +1,32 @@
+###################################################
+# start target service
+echo
+echo start API service...
+npm run dev &
+
+###################################################
+# allow service to spin up
+echo
+echo sleeping...
+sleep 5 
+
+###################################################
+# run requests
+echo 
+echo start request run...
+while IFS= read -r line
+do 
+  if [ ! -z "$line" ] && [ ${line:0:1} != "#" ]
+  then 
+    echo
+    echo "$line"
+    if [ -z "$outfile" ]
+    then
+      curl $line
+    else
+      echo "$line" >> $outfile
+      curl --silent --show-error --fail $line >> $outfile
+    fi
+  fi
+done < $infile  
+

@@ -1,0 +1,9 @@
+    error:
+      description: Unexpected error
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/error'
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'

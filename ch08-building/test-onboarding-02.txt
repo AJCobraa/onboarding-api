@@ -1,0 +1,32 @@
+mca@mamund-ws:~/onboarding$ curl localhost:8080 \
+  -H "accept:application/forms+json"
+{ 
+  "home" : 
+  { 
+    "metadata" : [
+      {"name" : "title","value" : "BigCo Onboarding Records"},
+      {"name" : "author","value" : "Mike Amundsen"},
+      {"name" : "release","value" : "1.0.0"}
+    ],
+    "links" : [
+      {"id" : "self","name" : "self","href" : "http://localhost:8080/",
+       "rel" : "self collection onboarding",
+       "tags" : "collection onboarding self home list item",
+       "title" : "Self","method" : "GET","properties" : []	      
+      },
+      {"id" : "home","name" : "home","href" : "http://localhost:8080/",
+       "rel" : "collection onboarding",
+       "tags" : "collection onboarding home list item",
+       "title" : "Home","method" : "GET","properties" : []	      
+      },
+      {"id" : "list","name" : "list","href" : "http://localhost:8080/wip/",
+       "rel" : "collection onboarding",
+        "tags" : "collection onboarding home list item",
+        "title" : "List","method" : "GET","properties" : []	      
+      }
+    ],
+    "items" : []
+  }
+}
+mca@mamund-ws:~/onboarding$
+

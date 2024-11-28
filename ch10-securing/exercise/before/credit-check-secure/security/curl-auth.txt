@@ -1,0 +1,11 @@
+####################################
+# auth-test variables
+####################################
+
+url="<URL-TO-REQUEST>"
+method=GET
+accept="application/json"
+contentType="application/x-www-form-urlencoded"
+# contentType="application/json"
+
+token="<VALID-JWT-ACCESS-TOKEN>"

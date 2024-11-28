@@ -1,0 +1,7 @@
+    identifier:
+      name: identifier
+      description: record identifier
+      in: path
+      required: true
+      schema:
+        type: string

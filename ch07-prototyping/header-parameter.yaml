@@ -1,0 +1,8 @@
+    ifNoneMatch:
+      name: if-None-Match
+      description: Conditional Create Header
+      in: header
+      schema:
+        type: string
+        example: "*"
+

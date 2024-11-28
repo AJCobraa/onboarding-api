@@ -1,0 +1,25 @@
+  /sample-url:
+    get:
+      operationId: readSample
+      summary: Use this to read a sample file
+      
+      parameters: []
+      
+      responses:
+        '200':
+          description: OK
+          
+    put:
+      operationId: updateSample
+      summary: Use this to update a sample file
+      
+      parameters: []
+      
+      requestBody:
+        content: {}
+        
+      responses:
+        '200':
+          description: OK
+          
+

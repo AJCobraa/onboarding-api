@@ -1,0 +1,13 @@
+    error:
+      type: object
+      properties:
+        type: 
+          type: string
+          example: "Invalid Record"
+        title:
+          type: string
+          example: "One or more missing properties"
+        detail:
+          type: string
+          example: "Review the submitted record for missing required properties."
+

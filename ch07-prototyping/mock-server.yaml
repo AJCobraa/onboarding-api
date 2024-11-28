@@ -1,0 +1,6 @@
+### mock server reference ###
+servers:
+# Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/mamund/onboarding-master/1.0.0
+

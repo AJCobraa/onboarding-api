@@ -1,0 +1,21 @@
+title Onboarding-R2 API
+
+home -> listOnboardings:
+listOnboardings --> home:
+listOnboardings -> createOnboardingF:
+createOnboardingF --> listOnboardings:
+listOnboardings -> readOnboarding:
+readOnboarding --> listOnboardings:
+readOnboarding -> addCompanyInfoF:
+addCompanyInfoF --> readOnboarding:
+readOnboarding -> addAccountInfoF:
+addAccountInfoF --> readOnboarding:
+readOnboarding -> addActivityInfoF:
+addActivityInfoF --> readOnboarding:
+readOnboarding -> addCreditCheckInfoF:
+addCreditCheckInfoF --> readOnboarding:
+readOnboarding -> approveOnboardingF:
+approveOnboardingF --> readOnboarding:
+readOnboarding -> rejectOnboardingF:
+rejectOnboardingF --> readOnboarding:
+

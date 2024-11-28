@@ -1,0 +1,29 @@
+{
+  "metadata" : [ {
+    "id" : "title",
+    "value" : "BigCo Onboarding"
+  } ],
+  "links" : [ {
+    "id" : "home",
+    "href" : "http://api.example.org/",
+    "title" : "Home Page",
+    "method" : "GET",
+    "properties" : [ {
+      "name" : "string",
+      "value" : "string"
+    } ]
+  } ],
+  "items" : [ {
+    "wipIdentifier" : "q1w2e3r4",
+    "customerIdentifier" : "w2e3r4t5",
+    "accountIdentifier" : "e3r4t5y6",
+    "activityIdentifier" : "r4t5y6u7",
+    "givenName" : "Idara",
+    "familyName" : "Adams",
+    "email" : "idara.adams@example.org",
+    "telephone" : "123.456.7890",
+    "status" : "pending",
+    "maxValue" : "5000",
+    "discount" : "10"
+  } ]
+}

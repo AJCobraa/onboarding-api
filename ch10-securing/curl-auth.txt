@@ -1,0 +1,10 @@
+####################################
+# auth-test variables
+####################################
+
+url="http://localhost:8484/"
+method=GET
+accept="application/json"
+contentType="application/json"
+
+token="<JWT-GOES-HERE>"

@@ -1,0 +1,7 @@
+Home -> WIP 
+WIP -> CancelWIP -> Home
+WIP -> CompanyData collect(identifier, companyName, address, 
+  email, phone, status) -> WIP
+WIP -> AccountData collect(identifier, division, discount, creditLimit) -> WIP
+WIP -> ActivityData collect(identifier, activityType, dateScheduled, notes) -> WIP
+WIP -> FinalizeWIP -> Home
